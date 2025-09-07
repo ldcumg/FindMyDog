@@ -1,5 +1,5 @@
-import Onboarding from "./onboarding";
 import LogIn from "./log-in";
+import Onboarding from "./onboarding";
 import { Text, View } from "react-native";
 
 const Index = () => {
