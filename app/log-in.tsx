@@ -1,11 +1,16 @@
-import React from "react";
-import { Text, View } from "react-native";
+import { GoogleRegisterButton } from '@/components/auth/GoogleRegisterButton';
+import SocialLogInButton from '@/components/auth/SocialLogInButton';
+import { LogInProviders } from '@/constants/logInProviders';
+import React from 'react';
+import { Text, View } from 'react-native';
 
 const LogIn = () => {
   return (
-    <View>
-      <Text>LogIn</Text>
-    </View>
+    <>
+      {/* <GoogleRegisterButton /> */}
+      <SocialLogInButton provider={LogInProviders.kakao} />
+      <SocialLogInButton provider={LogInProviders.google} />
+    </>
   );
 };
 
