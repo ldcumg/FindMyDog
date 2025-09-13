@@ -1,5 +1,4 @@
 import '../styles/global.css';
-import Auth from '@/components/Auth';
 import { supabase } from '@/lib/supabase';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Session } from '@supabase/supabase-js';
